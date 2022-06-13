@@ -1,0 +1,60 @@
+<!--This page creates the CSS interfaces-->
+
+table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #EE1818;
+}
+th{
+    font-weight: 800;
+    background-color: #EE1818;
+    color: #ffffff;
+    
+}
+h3{
+    font-family: sans-serif;
+    background-color: azure;
+    
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: #FA0808;
+}
+#contact a{
+    font-weight: 800;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 5px;
+}
+#contact a:hover{
+    font-weight: 800;
+    color: #ffffff;
+    
+    
+}
+#title-movie a{
+    text-decoration: none;
+    color: black;
+    
+}
+#title-movie a:hover{
+    
+    text-decoration: none;
+    color: #FA0808;
+    
+}
+p{
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align:justify-all;
+}
+#form p{
+    font-size:15px;
+    font-family: sans-serif;
+    
+}
+

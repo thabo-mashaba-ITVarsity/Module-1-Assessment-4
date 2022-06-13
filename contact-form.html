@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <!--Creates the navigation-->
+        <div id="contact">
+            <a href="assessment-4.html">Home</a>
+            <a href="about-us.html">About</a>
+        </div>
+        
+        <!--Links the CSS and HTML pages-->
+        <link rel="stylesheet" href="movie-style.css">
+        
+        <!--Creates Heading-->
+        <h1>Hello and Welcome, Please feel free to give us your feedBack</h1>
+    </head>
+    <body>
+        
+        <!--Below form creates the radio buttons and text boxes -->
+        <form>
+            <label for="name"> Name: </label><input type="text" id="name"/>
+            <br/><br/>
+            <label for="surName"> Surname: </label><input type="text" id="surName"/>
+            <br/><br/>
+            <label for="email"> Email: </label><input type="text" id="email"/>
+            <br/><br/>
+            <label for="message"> Message: </label><input type="text" id="message"/>
+            
+            
+            <div id="form"> 
+                <p>We will make sure to get back to you</p>
+            </div>
+            <br/><br/>
+            
+            <div id = "form">
+                <p>Please select your Favourite genre below.</p>
+            </div>
+            
+            <!--Below code creates the radio buttons-->
+            <input type="radio" id="action" name="genre"/>
+            <label for="action">Action </label>
+            <br/> <br/>
+            
+            <input type="radio" id="comedy" name="genre"/>
+            <label for="comedy">Comedy </label>
+            <br/> <br/>
+            
+            <input type="radio" id="horror" name="genre"/>
+            <label for="horror">Horror </label>
+            <br/> <br/>
+            
+            <input type="radio" id="drama" name="genre"/>
+            <label for="drama">Drama </label>
+            <br/> <br/>
+            
+            <input type="radio" id="romance" name="genre"/>
+            <label for="romance">Romance </label>
+            <br/> <br/>
+            
+            <input type="radio" id="other" name="genre"/>
+            <label for="other">Other </label>
+            <br/> <br/>
+            
+            <input type="submit" value="Send"/>
+            <input type="reset" value="Clear"/>
+           
+        </form>
+    </body>
+</html>
